@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PadForOschina.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8083E3EF1D2C008B00D7C039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8083E4081D2C008B00D7C039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8083E4131D2C008B00D7C039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
