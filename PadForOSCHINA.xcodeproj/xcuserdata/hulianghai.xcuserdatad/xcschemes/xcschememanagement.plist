@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PadForOschina.xcscheme</key>
+		<key>PadForOSCHINA.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8083E3EF1D2C008B00D7C039</key>
+		<key>0F292A441D46D8A400A6CAB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8083E4081D2C008B00D7C039</key>
+		<key>0F292A581D46D8A400A6CAB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8083E4131D2C008B00D7C039</key>
+		<key>0F292A631D46D8A400A6CAB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

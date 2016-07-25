@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8083E3EF1D2C008B00D7C039"
-               BuildableName = "PadForOschina.app"
-               BlueprintName = "PadForOschina"
-               ReferencedContainer = "container:PadForOschina.xcodeproj">
+               BlueprintIdentifier = "0F292A441D46D8A400A6CAB2"
+               BuildableName = "PadForOSCHINA.app"
+               BlueprintName = "PadForOSCHINA"
+               ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8083E4081D2C008B00D7C039"
-               BuildableName = "PadForOschinaTests.xctest"
-               BlueprintName = "PadForOschinaTests"
-               ReferencedContainer = "container:PadForOschina.xcodeproj">
+               BlueprintIdentifier = "0F292A581D46D8A400A6CAB2"
+               BuildableName = "PadForOSCHINATests.xctest"
+               BlueprintName = "PadForOSCHINATests"
+               ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8083E4131D2C008B00D7C039"
-               BuildableName = "PadForOschinaUITests.xctest"
-               BlueprintName = "PadForOschinaUITests"
-               ReferencedContainer = "container:PadForOschina.xcodeproj">
+               BlueprintIdentifier = "0F292A631D46D8A400A6CAB2"
+               BuildableName = "PadForOSCHINAUITests.xctest"
+               BlueprintName = "PadForOSCHINAUITests"
+               ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8083E3EF1D2C008B00D7C039"
-            BuildableName = "PadForOschina.app"
-            BlueprintName = "PadForOschina"
-            ReferencedContainer = "container:PadForOschina.xcodeproj">
+            BlueprintIdentifier = "0F292A441D46D8A400A6CAB2"
+            BuildableName = "PadForOSCHINA.app"
+            BlueprintName = "PadForOSCHINA"
+            ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8083E3EF1D2C008B00D7C039"
-            BuildableName = "PadForOschina.app"
-            BlueprintName = "PadForOschina"
-            ReferencedContainer = "container:PadForOschina.xcodeproj">
+            BlueprintIdentifier = "0F292A441D46D8A400A6CAB2"
+            BuildableName = "PadForOSCHINA.app"
+            BlueprintName = "PadForOSCHINA"
+            ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8083E3EF1D2C008B00D7C039"
-            BuildableName = "PadForOschina.app"
-            BlueprintName = "PadForOschina"
-            ReferencedContainer = "container:PadForOschina.xcodeproj">
+            BlueprintIdentifier = "0F292A441D46D8A400A6CAB2"
+            BuildableName = "PadForOSCHINA.app"
+            BlueprintName = "PadForOSCHINA"
+            ReferencedContainer = "container:PadForOSCHINA.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
