@@ -14,6 +14,7 @@
 		0F292A531D46D8A400A6CAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F292A511D46D8A400A6CAB2 /* LaunchScreen.storyboard */; };
 		0F292A5E1D46D8A400A6CAB2 /* PadForOSCHINATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F292A5D1D46D8A400A6CAB2 /* PadForOSCHINATests.swift */; };
 		0F292A691D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F292A681D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift */; };
+		91CECF9447B9F3A492730180 /* Pods_PadForOSCHINA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		0F292A641D46D8A400A6CAB2 /* PadForOSCHINAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadForOSCHINAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F292A681D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadForOSCHINAUITests.swift; sourceTree = "<group>"; };
 		0F292A6A1D46D8A400A6CAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFC85D81A556FA3FCD21333 /* Pods-PadForOSCHINA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadForOSCHINA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PadForOSCHINA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46C903C98B1A9BD4807D573 /* Pods-PadForOSCHINA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadForOSCHINA.release.xcconfig"; path = "Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91CECF9447B9F3A492730180 /* Pods_PadForOSCHINA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				0F292A5C1D46D8A400A6CAB2 /* PadForOSCHINATests */,
 				0F292A671D46D8A400A6CAB2 /* PadForOSCHINAUITests */,
 				0F292A461D46D8A400A6CAB2 /* Products */,
+				B9E83DCBBBF1F224D2124651 /* Pods */,
+				8ACEFDC81D11FB3B6903A01F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +132,23 @@
 			path = PadForOSCHINAUITests;
 			sourceTree = "<group>";
 		};
+		8ACEFDC81D11FB3B6903A01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E83DCBBBF1F224D2124651 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFC85D81A556FA3FCD21333 /* Pods-PadForOSCHINA.debug.xcconfig */,
+				B46C903C98B1A9BD4807D573 /* Pods-PadForOSCHINA.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0F292A6D1D46D8A400A6CAB2 /* Build configuration list for PBXNativeTarget "PadForOSCHINA" */;
 			buildPhases = (
+				ACE736F5CDCE16E7168161B5 /* 📦 Check Pods Manifest.lock */,
 				0F292A411D46D8A400A6CAB2 /* Sources */,
 				0F292A421D46D8A400A6CAB2 /* Frameworks */,
 				0F292A431D46D8A400A6CAB2 /* Resources */,
+				5A59E4B8C65F8782A7C8E41C /* 📦 Embed Pods Frameworks */,
+				F8CFA51FCB68091D523E0868 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,6 +278,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A59E4B8C65F8782A7C8E41C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACE736F5CDCE16E7168161B5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8CFA51FCB68091D523E0868 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F292A411D46D8A400A6CAB2 /* Sources */ = {
@@ -400,6 +475,7 @@
 		};
 		0F292A6E1D46D8A400A6CAB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFC85D81A556FA3FCD21333 /* Pods-PadForOSCHINA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -412,6 +488,7 @@
 		};
 		0F292A6F1D46D8A400A6CAB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46C903C98B1A9BD4807D573 /* Pods-PadForOSCHINA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -487,6 +564,7 @@
 				0F292A6F1D46D8A400A6CAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F292A701D46D8A400A6CAB2 /* Build configuration list for PBXNativeTarget "PadForOSCHINATests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +573,7 @@
 				0F292A721D46D8A400A6CAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F292A731D46D8A400A6CAB2 /* Build configuration list for PBXNativeTarget "PadForOSCHINAUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +582,7 @@
 				0F292A751D46D8A400A6CAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_PadForOSCHINA {
+  umbrella header "Pods-PadForOSCHINA-umbrella.h"
+
+  export *
+  module * { export * }
+}
