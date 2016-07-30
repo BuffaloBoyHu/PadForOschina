@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import SnapKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let myView = UIView();
+        myView.backgroundColor = UIColor.blueColor();
+        self.view.addSubview(myView);
+        myView.snp_makeConstraints { (make) in
+            make.center.equalTo(self.view.snp_center)
+            make.width.width.height.equalTo(100)
+        }
+        self.view.layoutIfNeeded()
+        
     }
 
     override func didReceiveMemoryWarning() {
