@@ -14,6 +14,7 @@
 		0F292A531D46D8A400A6CAB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F292A511D46D8A400A6CAB2 /* LaunchScreen.storyboard */; };
 		0F292A5E1D46D8A400A6CAB2 /* PadForOSCHINATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F292A5D1D46D8A400A6CAB2 /* PadForOSCHINATests.swift */; };
 		0F292A691D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F292A681D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift */; };
+		0F8C21721D4C7FB5005C9617 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8C21711D4C7FB5005C9617 /* SnapKit.framework */; };
 		91CECF9447B9F3A492730180 /* Pods_PadForOSCHINA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F292A451D46D8A400A6CAB2 /* PadForOSCHINA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PadForOSCHINA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F292A451D46D8A400A6CAB2 /* 开源中国Pad版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "开源中国Pad版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F292A481D46D8A400A6CAB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F292A4A1D46D8A400A6CAB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F292A4D1D46D8A400A6CAB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +49,7 @@
 		0F292A641D46D8A400A6CAB2 /* PadForOSCHINAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadForOSCHINAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F292A681D46D8A400A6CAB2 /* PadForOSCHINAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadForOSCHINAUITests.swift; sourceTree = "<group>"; };
 		0F292A6A1D46D8A400A6CAB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F8C21711D4C7FB5005C9617 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/PadForOSCHINA-bcikalwcrteruhgtjddlksnrnqku/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
 		1AFC85D81A556FA3FCD21333 /* Pods-PadForOSCHINA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadForOSCHINA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA.debug.xcconfig"; sourceTree = "<group>"; };
 		2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PadForOSCHINA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B46C903C98B1A9BD4807D573 /* Pods-PadForOSCHINA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PadForOSCHINA.release.xcconfig"; path = "Pods/Target Support Files/Pods-PadForOSCHINA/Pods-PadForOSCHINA.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8C21721D4C7FB5005C9617 /* SnapKit.framework in Frameworks */,
 				91CECF9447B9F3A492730180 /* Pods_PadForOSCHINA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,7 +97,7 @@
 		0F292A461D46D8A400A6CAB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F292A451D46D8A400A6CAB2 /* PadForOSCHINA.app */,
+				0F292A451D46D8A400A6CAB2 /* 开源中国Pad版.app */,
 				0F292A591D46D8A400A6CAB2 /* PadForOSCHINATests.xctest */,
 				0F292A641D46D8A400A6CAB2 /* PadForOSCHINAUITests.xctest */,
 			);
@@ -135,6 +138,7 @@
 		8ACEFDC81D11FB3B6903A01F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F8C21711D4C7FB5005C9617 /* SnapKit.framework */,
 				2F0FBC58B5C5BC37A31C6097 /* Pods_PadForOSCHINA.framework */,
 			);
 			name = Frameworks;
@@ -169,7 +173,7 @@
 			);
 			name = PadForOSCHINA;
 			productName = PadForOSCHINA;
-			productReference = 0F292A451D46D8A400A6CAB2 /* PadForOSCHINA.app */;
+			productReference = 0F292A451D46D8A400A6CAB2 /* 开源中国Pad版.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0F292A581D46D8A400A6CAB2 /* PadForOSCHINATests */ = {
@@ -425,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -480,9 +484,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadForOSCHINA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PadForOSCHINA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "开源中国Pad版";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -493,9 +499,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PadForOSCHINA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.PadForOSCHINA;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "开源中国Pad版";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
